@@ -85,6 +85,11 @@ define( 'LOGGED_IN_SALT',   getenv_docker('WORDPRESS_LOGGED_IN_SALT',   '2dbe31b
 define( 'NONCE_SALT',       getenv_docker('WORDPRESS_NONCE_SALT',       'f950017f952ff4f0327d8c459c9526e383bb3f86') );
 // (See also https://wordpress.stackexchange.com/a/152905/199287)
 
+/**#@-
+ * Development keys.
+ * */
+define( 'SCRIPT_DEBUG', true );
+
 /**#@-*/
 
 /**
